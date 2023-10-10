@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://127.0.0.1:27017/googleOAuth')
+mongoose.connect('mongodb+srv://vikas:zjQ5yIgLGJW4ZMtl@googleoauth.mgwdgfz.mongodb.net/?retryWrites=true&w=majority')
 .then(function(result){
   console.log('connected to mongodb cluster named googleOAuth')
 })

@@ -30,7 +30,7 @@ app.use(session({
   // I can give maximum age to per session
   cookie: { maxAge: 2*60*60*1000 }, //2Hour
   store: mongoStore.create({
-    mongoUrl: 'mongodb://127.0.0.1:27017/googleOAuth',
+    mongoUrl: 'mongodb+srv://vikas:zjQ5yIgLGJW4ZMtl@googleoauth.mgwdgfz.mongodb.net/?retryWrites=true&w=majority',
     autoRemove: 'disabled' // can make it true so that ones the session time expires it'll automatically removes it
   })
   // store: new SQLiteStore({ db: 'sessions.db', dir: './var/db' })
